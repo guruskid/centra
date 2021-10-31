@@ -17,5 +17,8 @@
 	"prefer-stable": true,
 	"require-dev": {
 		"symfony/dotenv": "5.4.x-dev"
-	}
+	},
+	"post-install-cmd": [
+		"chmod -R 777 src/public/"
+	]
 }
