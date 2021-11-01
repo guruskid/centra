@@ -5,8 +5,7 @@ require '../../vendor/autoload.php';
 use Symfony\Component\Dotenv\Dotenv;
 
 $dotenv = new Dotenv();
-// $dotenv->load(__DIR__.'/.env');
-$dotenv->load(dirname(dirname(__DIR__)).'/.env');
+$dotenv->load(dirname(__DIR__, 2).'/.env');
 
 class Utilities
 {
