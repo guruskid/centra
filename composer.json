@@ -16,6 +16,7 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require-dev": {
-		"symfony/dotenv": "5.4.x-dev"
+		"symfony/dotenv": "5.4.x-dev",
+		"heroku/heroku-buildpack-php": "*"
 	}
 }
