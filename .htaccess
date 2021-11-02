@@ -5,9 +5,7 @@ RewriteCond %{THE_REQUEST} public/([^\s?]*) [NC]
 RewriteRule ^ %1 [L,NE,R=302]
 RewriteRule ^(.*)$ src/public/index.php?$1 [L,QSA]
 
-<IfModule dir_module>
-    DirectoryIndex index.php
-</IfModule>
+DirectoryIndex index.php
 
 
 # RewriteEngine on
