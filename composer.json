@@ -11,12 +11,12 @@
 		"michelf/php-markdown": "^1.6",
 		"phpunit/phpunit": "5.0.*",
 		"guzzlehttp/guzzle": "^7.4",
-		"php": "^7.4.0"
+		"php": "^7.4.0",
+		"symfony/dotenv": "^5.3"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require-dev": {
-		"symfony/dotenv": "5.4.x-dev",
 		"heroku/heroku-buildpack-php": "*"
 	}
 }
